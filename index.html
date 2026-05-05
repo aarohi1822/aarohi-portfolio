@@ -128,7 +128,7 @@ nav{
 
 /* ── Stats ── */
 .stats{
-  display:grid;grid-template-columns:repeat(4,1fr);
+  display:grid;grid-template-columns:repeat(3,1fr);
   border-bottom:0.5px solid var(--border);
 }
 .stat{
@@ -329,7 +329,6 @@ footer{
     <p class="hero-sub">
       Building production AI systems — RAG pipelines, anomaly detection, computer vision.
       IIT Roorkee Research Intern × 2. B.Tech CSE, COER University, Roorkee.
-      Targeting MS in AI/Data Science at German universities.
     </p>
     <div class="hero-ctas">
       <a class="btn btn-primary" href="https://ragnova-aarohi.streamlit.app" target="_blank">Live Project: RAGNova ↗</a>
@@ -346,10 +345,6 @@ footer{
       <div class="stat-l">IIT Roorkee Intern</div>
     </div>
     <div class="stat" style="--d:0.5s">
-      <div class="stat-n">95<span class="stat-accent">%</span></div>
-      <div class="stat-l">Model Accuracy</div>
-    </div>
-    <div class="stat" style="--d:0.6s">
       <div class="stat-n">5<span class="stat-accent">+</span></div>
       <div class="stat-l">Live Deployments</div>
     </div>
@@ -364,6 +359,7 @@ footer{
     <div class="sec-label">Featured Projects</div>
     <div class="projects">
 
+      <!-- RAGNova -->
       <div class="proj" style="--pd:0.4s">
         <div class="proj-top">
           <span class="badge badge-purple">RAG · LLM Engineering</span>
@@ -381,10 +377,11 @@ footer{
         </div>
       </div>
 
+      <!-- NetSentrix -->
       <div class="proj" style="--pd:0.45s">
         <div class="proj-top">
           <span class="badge badge-teal">Anomaly Detection</span>
-          <a class="proj-arrow" href="https://iot-sentinel.streamlit.app/" target="_blank">↗</a>
+          <a class="proj-arrow" href="https://iot-sentinel-aarohigs.streamlit.app/" target="_blank">↗</a>
         </div>
         <div class="proj-title">NetSentrix</div>
         <div class="proj-desc">End-to-end anomaly detection on NASA SMAP/MSL spacecraft telemetry using LSTM-Autoencoder (PyTorch) and Isolation Forest, benchmarked against classical baselines.</div>
@@ -393,15 +390,11 @@ footer{
         </div>
         <div class="proj-links">
           <a class="proj-link" href="https://github.com/aarohi1822/iot-sentinel-anomaly-detection" target="_blank">GitHub</a>
-          <a class="proj-link live" href="https://iot-sentinel.streamlit.app/" target="_blank">Live Demo</a>
+          <a class="proj-link live" href="https://iot-sentinel-aarohigs.streamlit.app/" target="_blank">Live Demo</a>
         </div>
       </div>
 
-      <div class="proj" style="--pd:0.5s">
-        <div class="proj-top">
-          <span class="badge badge-coral">Medical AI · XAI</span>
-        </div>
-
+      <!-- DemographAI -->
       <div class="proj" style="--pd:0.55s">
         <div class="proj-top">
           <span class="badge badge-amber">Computer Vision</span>
@@ -418,7 +411,7 @@ footer{
         </div>
       </div>
 
-    </div>
+    </div><!-- /.projects — FIX: closing div was missing -->
   </section>
 
   <!-- Skills -->
